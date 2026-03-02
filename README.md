@@ -32,7 +32,15 @@ To ensure objective reasoning, the engine is embedded with five foundational cli
 - **Reference Ranges:** Comprehensive Metabolic Panel (CMP) and lipid target values.  
 - **Vitals:** AHA/ACC Blood Pressure categories and resting heart rate (RHR) norms.  
 - **Fitness Benchmarks:** VO2 Max percentiles and grip strength standards for longevity.  
-- **Optimal Zones:** Defining optimal ranges for Vitamin D, B12, and Ferritin.  
+- **Optimal Zones:** Defining optimal ranges for Vitamin D, B12, and Ferritin.
+
+## 🔌 MCP Integration (Model Context Protocol)
+
+AgeWell is now a fully functional MCP Server. You can connect this repository to Claude Desktop or Cursor to use the AgeWell clinical database as a live tool within your AI workflow.
+
+- Tool: query_longevity_expert
+- Capability: Returns structured 5-step clinical reports based on 1,100+ verified data segments.
+- Transport: Stdio-based connection for local security.
 
 ## Key Engineering Innovations
 
